@@ -13,7 +13,7 @@ $webClient.DownloadFile($imageUrl, $tempImagePath)
 
 # Criar o formulário
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Teste"
+$form.Text = "Imagem"
 $form.Size = New-Object System.Drawing.Size(500, 400)
 $form.StartPosition = "CenterScreen"
 
